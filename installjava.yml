@@ -6,10 +6,10 @@
     apt:
       name: "{{myjavaonubuntu}}"
       state: present
-     when: ansible_os_family =="Debian"
+    when: ansible_os_family =="Debian"
 
   - name: insatall java on redhat8 nodes
     yum:
       name: "{{my javaonredhat}}"
       state: present
-     when: ansible_os_family =="Redhat"      
+    when: ansible_os_family =="Redhat"      
