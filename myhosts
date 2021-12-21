@@ -2,6 +2,9 @@
 172.31.45.245
 172.31.32.207
 
+[myapplicationserver]
+172.31.3.84
+
 [myubuntuservers]
 172.31.45.245
 
